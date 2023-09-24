@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Home() {
   return (
-      <main className="w-1/4 flex items-center justify-center mg-2">
+      <main className="w-2/4 flex items-center justify-center mg-2">
           <div
               className="block max-w-[40rem] max-h-[42rem] rounded-lg bg-white text-center dark:bg-neutral-700 mt-5">
               <div className="p-6">
@@ -12,7 +12,7 @@ export default function Home() {
                   <p
                       className="mb-4 mt-6">
                       <Link href={`/posts_page`}>
-                          <img style={{borderRadius: "15px"}} src='https://sun9-1.userapi.com/impg/z0qxolF6x-NcVxZ_bFyZmFVt_iw0gQhrYohhGw/EmjyKnPAW-Y.jpg?size=736x808&quality=96&sign=af025c0e71634b65ee7caac2262b1f4d&type=album' alt='img'/>
+                          <img style={{borderRadius: "15px", width: "15rem", height: "15rem"}} src='https://sun9-1.userapi.com/impg/z0qxolF6x-NcVxZ_bFyZmFVt_iw0gQhrYohhGw/EmjyKnPAW-Y.jpg?size=736x808&quality=96&sign=af025c0e71634b65ee7caac2262b1f4d&type=album' alt='img'/>
                       </Link>
                   </p>
               </div>
