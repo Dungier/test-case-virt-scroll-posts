@@ -3,7 +3,7 @@ export default function Home() {
   return (
       <main className="w-1/4 flex items-center justify-center mg-2">
           <div
-              className="block max-w-[30rem] max-h-[42rem] rounded-lg bg-white text-center dark:bg-neutral-700 mt-5">
+              className="block max-w-[40rem] max-h-[42rem] rounded-lg bg-white text-center dark:bg-neutral-700 mt-5">
               <div className="p-6">
                   <h5
                       className="mb-1 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
