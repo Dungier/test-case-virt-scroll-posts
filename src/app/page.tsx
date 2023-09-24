@@ -10,9 +10,9 @@ export default function Home() {
                       {"Привет, вы на главной странице тестового задания, для просмотра выполнение: перейдите на вкладку PostsPage или используя роут /posts_page, так же вы можете просто кликнуть на котика)"}
                   </h5>
                   <p
-                      className="mb-4 mt-6 flex items-center justify-center">
+                      className="mb-4 mt-6 flex items-center  min-w-[15] min-h-[12]">
                       <Link href={`/posts_page`}>
-                          <img style={{borderRadius: "15px", height: "20rem"}} src='https://sun9-1.userapi.com/impg/z0qxolF6x-NcVxZ_bFyZmFVt_iw0gQhrYohhGw/EmjyKnPAW-Y.jpg?size=736x808&quality=96&sign=af025c0e71634b65ee7caac2262b1f4d&type=album' alt='img'/>
+                          <img style={{borderRadius: "15px", height: "20rem", width: "22rem"}} src='https://sun9-1.userapi.com/impg/z0qxolF6x-NcVxZ_bFyZmFVt_iw0gQhrYohhGw/EmjyKnPAW-Y.jpg?size=736x808&quality=96&sign=af025c0e71634b65ee7caac2262b1f4d&type=album' alt='img'/>
                       </Link>
                   </p>
               </div>
